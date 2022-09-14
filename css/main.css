@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    overflow-x: hidden;
+    }
+
+    /*===================MENU==========================*/
+    #menu a, button{
+    font-size: 18px !important;
+    font-weight: 600;
+    }
+    #menu a{
+    color:#3f3f3f;
+    }
+
+    /*===================SLIDER DE IMAGENES==========================*/
+    .carousel-inner {
+    max-height:39rem !important;
+    }
+
+    /*=========================MEDIA QUERIES PANTALLA SM================================*/
+    @media (max-width:768px) {
+    #intro, #equipo{
+    width:90% !important;
+    margin:auto;    
+    }
+    }
+    
